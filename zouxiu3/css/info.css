@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body,html{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+header{
+	background: #ab1b1a;
+	height: 60px;
+}
+footer{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+
+section ul li img{
+	height: 235px;
+	width:100%;
+
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer ul li{
+	width: 20%;
+	display: block;
+	float: left;
+	background-color: rosybrown;
+	text-align: center;
+}
+@font-face {font-family: '../icons/iconfont';
+    src: url('../icons/iconfont.eot'); /* IE9*/
+    src: url('../icons/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icons/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icons/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icons/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+#nav li{
+	 font-family:"../icons/iconfont";
+	 background-color: #484850;
+	 font-size: 18px;
+	 font-weight: bold;
+	
+}
+#nav li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin-top: -10px;
+	 overflow: hidden;
+}
+#nav li a span{
+	font-size: 16px;
+	display: block;
+	margin-top: -24px;
+	
+}
+.cart{
+	font-family:"../icons/iconfont";
+	color: white;
+	display: block;
+	font-size: 48px;
+	margin-right: 20px;
+	margin-top: 5px;
+	float: right;
+	
+}
+header button{
+	width: 100px;
+	height: 50px;
+	background: #b30b0b;
+	border-radius: 20px;
+	font-size: 20px;
+	color: white;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+}
+
+#person dt img{
+	width: 165px;
+	height: 165px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 30px;
+}
+#person dd{
+	width: 150px;
+	height: 48px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+	
+}
+#person{
+	margin-top: 30px;
+	font-size: 28px;
+}
+#order{
+	width: 80%;
+	height: 300px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#order li{
+	border-bottom: 1px solid grey;
+	height: 75px;
+	font-family:"../icons/iconfont";
+	line-height: 75px;
+}
+#order li span{
+	float: right;
+	margin-right: 30px;
+}

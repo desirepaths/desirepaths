@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css"  href="../css/detail.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/swiper.min.css" />
+		<script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.js"></script>
+		<script src="../js/swiper.min.js"></script>
+		<script src="../js/mui.js"></script>
+		<link rel="stylesheet" href="../css/mui.css" />
+		
+	</head>
+	<body>
+		<header><span onclick="location.href='index.html'">&#xe619;</span>商品资料<span class="cart" onclick="location.href='cart.html'">&#xe61b;</span></header>
+	     
+	    
+			<!--<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			           
+			    </div>
+			 
+			  
+			</div>-->
+			
+			<div id="slider" class="mui-slider" >
+			  <div class="mui-slider-group mui-slider-loop">
+			     <!--额外增加的一个节点(循环轮播：第一个节点是最后一张轮播)--> 
+			  <div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">
+			        <!--<img src="http://placehold.it/400x300">-->
+			      </a>
+			    </div>
+			    <!-- 第一张 -->
+			    <!--<div class="mui-slider-item">
+			
+			        <img src="http://placehold.it/400x300">
+			 
+			    </div>-->
+			
+			    
+			    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+			    <!--<div class="mui-slider-item mui-slider-item-duplicate">
+			      <a href="#">-->
+			         <!--<img src="http://placehold.it/400x300">-->
+			      <!--</a>
+			    </div>-->
+			  </div>
+			  <div class="mui-slider-indicator">
+			    <div class="mui-indicator mui-active"></div>
+			    <div class="mui-indicator"></div>
+			    <div class="mui-indicator"></div>
+			    <div class="mui-indicator"></div>
+			  </div>
+			</div>
+			
+	
+
+
+		<div id="info">
+			
+		</div>
+		
+		<div id="detail">
+			<p>查看商品详情</p>
+		</div>
+		
+		<div id="cart">
+			<p id="add">添加到加入购物车</p>
+		</div>
+	</body>
+	<script>        
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'horizontal',
+		    loop: true,
+//		    effect : 'cube',
+		    
+		    // 如果需要分页器
+
+		    
+
+		    
+		    
+		
+		  })        
+  </script>
+</body>
+</html>
+<script src="../js/detail.js"></script>
+
+
